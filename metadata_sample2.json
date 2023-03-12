@@ -1,0 +1,24 @@
+{
+  "name": "Sample Certificate",
+  "description": "sample",
+  "image": "",
+  "attributes": [
+    {
+      "trait_type": "certification_authority_name",
+      "value": "University of Sample2"
+    },
+    {
+      "trait_type": "degree_title",
+      "value": "Master of Sample2"
+    },
+    {
+      "display_type": "date",
+      "trait_type": "degree_conferral_date",
+      "value": 1711810800
+    },
+    {
+      "trait_type": "hash",
+      "value": ""
+    }
+  ]
+}
