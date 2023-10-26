@@ -1,1 +1,1 @@
-# copy-nft
+# replicable-nft

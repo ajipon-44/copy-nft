@@ -55,7 +55,7 @@ contract ReplicableNFT is ERC721URIStorage {
     function mintAndTransferFromStudentToCompany(uint256 originalTokenId, address companyAddress) public {
         require(ownerOf(originalTokenId) == _msgSender(), "caller is not the owner of the token");
 
-        address[] storage sentLog = sentLogs[msg.sender];
+        address[] memory sentLog = sentLogs[msg.sender];
         for (uint256 i = 0; i < sentLog.length; i++) {
             require(sentLog[i] != companyAddress, "Already entried");
         }
